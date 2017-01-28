@@ -81,6 +81,51 @@
 		3FEE83AB17E839620037A60A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEE83AA17E839620037A60A /* AVFoundation.framework */; };
 		3FEE83AD17E839670037A60A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEE83AC17E839670037A60A /* CoreMedia.framework */; };
 		3FEE83AF17E8396D0037A60A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEE83AE17E8396D0037A60A /* CoreVideo.framework */; };
+		53EA63D01E3D2F730015475B /* ShakeReportLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EA63CE1E3D2F730015475B /* ShakeReportLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EA63D41E3D2F960015475B /* SRReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BEEC017C8903B004020BD /* SRReportViewController.m */; };
+		53EA63D51E3D2F960015475B /* SRImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20C06A188F46AA0085BD25 /* SRImageEditorViewController.m */; };
+		53EA63D61E3D2FAA0015475B /* SRHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19D7917EE4BBA004F64B9 /* SRHTTPClient.m */; };
+		53EA63D71E3D2FAA0015475B /* SRCameraRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CBA17ED2245004F64B9 /* SRCameraRecorder.m */; };
+		53EA63D81E3D2FAA0015475B /* SRCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CBC17ED2245004F64B9 /* SRCGUtils.m */; };
+		53EA63D91E3D2FAA0015475B /* SRDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CBE17ED2245004F64B9 /* SRDefines.m */; };
+		53EA63DA1E3D2FAA0015475B /* SRRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CC117ED2245004F64B9 /* SRRecorder.m */; };
+		53EA63DB1E3D2FAA0015475B /* SRScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CC317ED2245004F64B9 /* SRScreenRecorder.m */; };
+		53EA63DC1E3D2FAA0015475B /* SRUITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CC917ED2245004F64B9 /* SRUITouch.m */; };
+		53EA63DD1E3D2FAA0015475B /* SRUIViewRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CCB17ED2245004F64B9 /* SRUIViewRecorder.m */; };
+		53EA63DE1E3D2FAA0015475B /* SRUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CCD17ED2245004F64B9 /* SRUIWindow.m */; };
+		53EA63DF1E3D2FAA0015475B /* SRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CCF17ED2245004F64B9 /* SRUtils.m */; };
+		53EA63E01E3D2FAA0015475B /* SRVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CD117ED2245004F64B9 /* SRVideo.m */; };
+		53EA63E11E3D2FAA0015475B /* SRVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19CD317ED2245004F64B9 /* SRVideoWriter.m */; };
+		53EA63E21E3D2FAA0015475B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F48738175B0F1100E8F4EA /* NSData+Base64.m */; };
+		53EA63E31E3D2FAA0015475B /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F4873D175B10C500E8F4EA /* NSString+HTML.m */; };
+		53EA63E41E3D2FAA0015475B /* SRMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F09F81758674F009EA80A /* SRMethodSwizzler.m */; };
+		53EA63E51E3D2FAA0015475B /* SRReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F597141175721DC00971B9B /* SRReporter.m */; };
+		53EA63E61E3D2FAA0015475B /* SRVideoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE19D7D17EEDBC0004F64B9 /* SRVideoReporter.m */; };
+		53EA63E71E3D2FAA0015475B /* UIWindow+SRReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59714A175725F000971B9B /* UIWindow+SRReporter.m */; };
+		53EA63E81E3D2FAA0015475B /* SRReportLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7F93617EBCE8C00DF0EFB /* SRReportLoadingView.m */; };
+		53EA63EC1E3D31F20015475B /* SRReportViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7BEEBF17C8903B004020BD /* SRReportViewController.h */; };
+		53EA63ED1E3D31F20015475B /* SRImageEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F20C069188F46AA0085BD25 /* SRImageEditorViewController.h */; };
+		53EA63EE1E3D31F20015475B /* SRHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19D7817EE4BBA004F64B9 /* SRHTTPClient.h */; };
+		53EA63EF1E3D31F20015475B /* CaptureRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CB817ED2245004F64B9 /* CaptureRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EA63F01E3D31F20015475B /* SRCameraRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CB917ED2245004F64B9 /* SRCameraRecorder.h */; };
+		53EA63F11E3D31F20015475B /* SRCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CBB17ED2245004F64B9 /* SRCGUtils.h */; };
+		53EA63F21E3D31F20015475B /* SRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CBD17ED2245004F64B9 /* SRDefines.h */; };
+		53EA63F31E3D31F20015475B /* SRRecordable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CBF17ED2245004F64B9 /* SRRecordable.h */; };
+		53EA63F41E3D31F20015475B /* SRRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CC017ED2245004F64B9 /* SRRecorder.h */; };
+		53EA63F51E3D31F20015475B /* SRScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CC217ED2245004F64B9 /* SRScreenRecorder.h */; };
+		53EA63F61E3D31F20015475B /* SRUITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CC817ED2245004F64B9 /* SRUITouch.h */; };
+		53EA63F71E3D31F20015475B /* SRUIViewRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CCA17ED2245004F64B9 /* SRUIViewRecorder.h */; };
+		53EA63F81E3D31F20015475B /* SRUIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CCC17ED2245004F64B9 /* SRUIWindow.h */; };
+		53EA63F91E3D31F20015475B /* SRUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CCE17ED2245004F64B9 /* SRUtils.h */; };
+		53EA63FA1E3D31F20015475B /* SRVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CD017ED2245004F64B9 /* SRVideo.h */; };
+		53EA63FB1E3D31F20015475B /* SRVideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19CD217ED2245004F64B9 /* SRVideoWriter.h */; };
+		53EA63FC1E3D31F20015475B /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F48737175B0F1100E8F4EA /* NSData+Base64.h */; };
+		53EA63FD1E3D31F20015475B /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F4873C175B10C500E8F4EA /* NSString+HTML.h */; };
+		53EA63FE1E3D31F30015475B /* SRMethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4F09F71758674F009EA80A /* SRMethodSwizzler.h */; };
+		53EA63FF1E3D31F30015475B /* SRReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F597140175721DC00971B9B /* SRReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EA64001E3D31F30015475B /* SRVideoReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE19D7C17EEDBC0004F64B9 /* SRVideoReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EA64011E3D31F30015475B /* UIWindow+SRReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F597149175725F000971B9B /* UIWindow+SRReporter.h */; };
+		53EA64021E3D31F30015475B /* SRReportLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE7F93517EBCE8C00DF0EFB /* SRReportLoadingView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +217,9 @@
 		3FEE83AA17E839620037A60A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3FEE83AC17E839670037A60A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3FEE83AE17E8396D0037A60A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		53EA63CC1E3D2F730015475B /* ShakeReportLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShakeReportLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EA63CE1E3D2F730015475B /* ShakeReportLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeReportLib.h; sourceTree = "<group>"; };
+		53EA63CF1E3D2F730015475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +257,13 @@
 				3F5971291757217000971B9B /* SenTestingKit.framework in Frameworks */,
 				3F59712A1757217000971B9B /* UIKit.framework in Frameworks */,
 				3F59712B1757217000971B9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EA63C81E3D2F730015475B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +310,7 @@
 				3FEE83A817E8395B0037A60A /* AssetsLibrary.framework */,
 				3F59710A1757217000971B9B /* ShakeReport */,
 				3F59712E1757217000971B9B /* ShakeReportTests */,
+				53EA63CD1E3D2F730015475B /* ShakeReportLib */,
 				3F5971031757217000971B9B /* Frameworks */,
 				3F5971021757217000971B9B /* Products */,
 			);
@@ -265,6 +321,7 @@
 			children = (
 				3F5971011757217000971B9B /* ShakeReport.app */,
 				3F5971271757217000971B9B /* ShakeReportTests.octest */,
+				53EA63CC1E3D2F730015475B /* ShakeReportLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,7 +461,50 @@
 			name = http;
 			sourceTree = "<group>";
 		};
+		53EA63CD1E3D2F730015475B /* ShakeReportLib */ = {
+			isa = PBXGroup;
+			children = (
+				53EA63CE1E3D2F730015475B /* ShakeReportLib.h */,
+				53EA63CF1E3D2F730015475B /* Info.plist */,
+			);
+			path = ShakeReportLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53EA63C91E3D2F730015475B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA63D01E3D2F730015475B /* ShakeReportLib.h in Headers */,
+				53EA63EF1E3D31F20015475B /* CaptureRecord.h in Headers */,
+				53EA63FF1E3D31F30015475B /* SRReporter.h in Headers */,
+				53EA64001E3D31F30015475B /* SRVideoReporter.h in Headers */,
+				53EA63EC1E3D31F20015475B /* SRReportViewController.h in Headers */,
+				53EA63ED1E3D31F20015475B /* SRImageEditorViewController.h in Headers */,
+				53EA63EE1E3D31F20015475B /* SRHTTPClient.h in Headers */,
+				53EA63F01E3D31F20015475B /* SRCameraRecorder.h in Headers */,
+				53EA63F11E3D31F20015475B /* SRCGUtils.h in Headers */,
+				53EA63F21E3D31F20015475B /* SRDefines.h in Headers */,
+				53EA63F31E3D31F20015475B /* SRRecordable.h in Headers */,
+				53EA63F41E3D31F20015475B /* SRRecorder.h in Headers */,
+				53EA63F51E3D31F20015475B /* SRScreenRecorder.h in Headers */,
+				53EA63F61E3D31F20015475B /* SRUITouch.h in Headers */,
+				53EA63F71E3D31F20015475B /* SRUIViewRecorder.h in Headers */,
+				53EA63F81E3D31F20015475B /* SRUIWindow.h in Headers */,
+				53EA63F91E3D31F20015475B /* SRUtils.h in Headers */,
+				53EA63FA1E3D31F20015475B /* SRVideo.h in Headers */,
+				53EA63FB1E3D31F20015475B /* SRVideoWriter.h in Headers */,
+				53EA63FC1E3D31F20015475B /* NSData+Base64.h in Headers */,
+				53EA63FD1E3D31F20015475B /* NSString+HTML.h in Headers */,
+				53EA63FE1E3D31F30015475B /* SRMethodSwizzler.h in Headers */,
+				53EA64011E3D31F30015475B /* UIWindow+SRReporter.h in Headers */,
+				53EA64021E3D31F30015475B /* SRReportLoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3F5971001757217000971B9B /* ShakeReport */ = {
@@ -443,6 +543,24 @@
 			productReference = 3F5971271757217000971B9B /* ShakeReportTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		53EA63CB1E3D2F730015475B /* ShakeReportLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EA63D31E3D2F730015475B /* Build configuration list for PBXNativeTarget "ShakeReportLib" */;
+			buildPhases = (
+				53EA63C71E3D2F730015475B /* Sources */,
+				53EA63C81E3D2F730015475B /* Frameworks */,
+				53EA63C91E3D2F730015475B /* Headers */,
+				53EA63CA1E3D2F730015475B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeReportLib;
+			productName = ShakeReportLib;
+			productReference = 53EA63CC1E3D2F730015475B /* ShakeReportLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -450,8 +568,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SR;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Jayztemplier;
+				TargetAttributes = {
+					53EA63CB1E3D2F730015475B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7596YH3S97;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 3F5970FC1757217000971B9B /* Build configuration list for PBXProject "ShakeReport" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -467,6 +592,7 @@
 			targets = (
 				3F5971001757217000971B9B /* ShakeReport */,
 				3F5971261757217000971B9B /* ShakeReportTests */,
+				53EA63CB1E3D2F730015475B /* ShakeReportLib */,
 			);
 		};
 /* End PBXProject section */
@@ -491,6 +617,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5971331757217000971B9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EA63CA1E3D2F730015475B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +703,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53EA63C71E3D2F730015475B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA63D41E3D2F960015475B /* SRReportViewController.m in Sources */,
+				53EA63D51E3D2F960015475B /* SRImageEditorViewController.m in Sources */,
+				53EA63D61E3D2FAA0015475B /* SRHTTPClient.m in Sources */,
+				53EA63D71E3D2FAA0015475B /* SRCameraRecorder.m in Sources */,
+				53EA63D81E3D2FAA0015475B /* SRCGUtils.m in Sources */,
+				53EA63D91E3D2FAA0015475B /* SRDefines.m in Sources */,
+				53EA63DA1E3D2FAA0015475B /* SRRecorder.m in Sources */,
+				53EA63DB1E3D2FAA0015475B /* SRScreenRecorder.m in Sources */,
+				53EA63DC1E3D2FAA0015475B /* SRUITouch.m in Sources */,
+				53EA63DD1E3D2FAA0015475B /* SRUIViewRecorder.m in Sources */,
+				53EA63DE1E3D2FAA0015475B /* SRUIWindow.m in Sources */,
+				53EA63DF1E3D2FAA0015475B /* SRUtils.m in Sources */,
+				53EA63E01E3D2FAA0015475B /* SRVideo.m in Sources */,
+				53EA63E11E3D2FAA0015475B /* SRVideoWriter.m in Sources */,
+				53EA63E21E3D2FAA0015475B /* NSData+Base64.m in Sources */,
+				53EA63E31E3D2FAA0015475B /* NSString+HTML.m in Sources */,
+				53EA63E41E3D2FAA0015475B /* SRMethodSwizzler.m in Sources */,
+				53EA63E51E3D2FAA0015475B /* SRReporter.m in Sources */,
+				53EA63E61E3D2FAA0015475B /* SRVideoReporter.m in Sources */,
+				53EA63E71E3D2FAA0015475B /* UIWindow+SRReporter.m in Sources */,
+				53EA63E81E3D2FAA0015475B /* SRReportLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -615,25 +776,35 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -646,18 +817,27 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -675,7 +855,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeReport/ShakeReport-Prefix.pch";
 				INFOPLIST_FILE = "ShakeReport/ShakeReport-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayztemplier.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -692,7 +873,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeReport/ShakeReport-Prefix.pch";
 				INFOPLIST_FILE = "ShakeReport/ShakeReport-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayztemplier.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -709,6 +891,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeReport/ShakeReport-Prefix.pch";
 				INFOPLIST_FILE = "ShakeReportTests/ShakeReportTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayztemplier.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -726,9 +909,95 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeReport/ShakeReport-Prefix.pch";
 				INFOPLIST_FILE = "ShakeReportTests/ShakeReportTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayztemplier.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		53EA63D11E3D2F730015475B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7596YH3S97;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ShakeReportLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayztemplier.ShakeReportLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53EA63D21E3D2F730015475B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7596YH3S97;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ShakeReportLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayztemplier.ShakeReportLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -761,6 +1030,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		53EA63D31E3D2F730015475B /* Build configuration list for PBXNativeTarget "ShakeReportLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EA63D11E3D2F730015475B /* Debug */,
+				53EA63D21E3D2F730015475B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,6 +4,7 @@
 //  Copyright (c) 2013 Jeremy Templier. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "SRRecordable.h"
 
 /*!

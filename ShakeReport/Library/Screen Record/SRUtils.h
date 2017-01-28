@@ -4,6 +4,7 @@
 //  Copyright (c) 2013 Jeremy Templier. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
 @interface SRUtils : NSObject
 + (NSString *)sr_rot13:(NSString *)str;

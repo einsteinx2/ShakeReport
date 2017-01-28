@@ -4,6 +4,7 @@
 //  Copyright (c) 2013 Jeremy Templier. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
 #define CRSetError(__ERROR__, __ERROR_CODE__, __DESC__, ...) do { \
 NSString *message = [NSString stringWithFormat:__DESC__, ##__VA_ARGS__]; \

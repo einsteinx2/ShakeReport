@@ -8,6 +8,8 @@
 // Original development by Dave Winer.
 //
 
+#import <Foundation/Foundation.h>
+
 @interface NSData (Base64)
 
 /*!	@function	+dataWithBase64EncodedString:
